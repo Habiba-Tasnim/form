@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="style/form_680.css">
+</head>
+<style>
+	.wrapper{
+	width: 60%;
+	margin: 0 auto;
+	border: 5px solid #ddd;
+}
+label{
+	font-size: 25px;
+}
+.first_name ,.last_name , .email , .password{
+	width: 90%;
+	height: 25px;
+	padding: 10px;
+	font-size: 18px;
+}
+.massage{
+	font-size: 15px;
+	padding: 10px;
+}
+</style>
+<body>
+	<div class="wrapper">
+     <form action="#" method="get" enctype="multiple/form-data">
+     	<label for="first_name">First Name:</label>
+     	<input type="text" placeholder="Type your first name" name="first_name" id="first_name">
+         <br><br>
+     	<label for="last_name">last Name:</label>
+     	<input type="text" placeholder="Type your last name" name="last_name" id="last_name">
+     	 <br><br>
+     	<label for="username">Username:</label>
+     	<input type="text" placeholder="Type your username" name="username" id="username">
+     	<br><br>
+     	<label for="email">Email Address:</label>
+     	<input type="email" placeholder="Type your email address" name="email" id="email">
+     	<br><br>
+     	<label for="password">Password:</label>
+     	<input type="password" placeholder="Type your password" name="password" id="password">
+     		<br><br>
+     	<label for="date_of_birth">Date Of Birth:</label>
+     	<input type="date_of_birth" placeholder="mm/dd/yy" name="date_of_birth" id="date_of_birth">
+     	<br><br>
+     	<label for="gender">Gender:</label>
+     	<input type="radio" value="Male" name="gender" id="gender" class="gender"><span>male</span>
+     	<input type="radio" value="Female" name="gender" id="gender" class="gender"><span>female</span>
+     	<br><br>
+     	<label for="">Education Qualification:</label>
+     	<input type="checkbox" value="ssc" name=""><span>SSC</span>
+     	<input type="checkbox" value="hsc" name=""><span>HSC</span>
+     	<br><br>
+     	<label for="massage">Your Massage:</label><br>
+     	<textarea name="" id="" cols="30" rows="10" placeholder="Type your massage here" name="massage" id="massage" class="massage"></textarea>
+     	<br><br>
+     	<button type="submit"> Click Here</button>
+     </form>
+ </div>
+</body>
+</html>
